@@ -26,6 +26,21 @@ footer {
   height: auto;
 }
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.centered-image {
+ max-width: 75%; /* Set the maximum width to 75% of the parent container */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 20px; /* Rounded corneEnsures the image is responsive and does not overflow its container */
+}
+
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2rem;
